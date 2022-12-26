@@ -1,1 +1,1 @@
-const apiBaseUrl = 'https://hacker-news.firebaseio.com/v0';
+const apiBaseUrl = 'https://api.imgflip.com';

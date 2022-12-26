@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 import 'utils/evalutate.dart';
 
 ThemeData theme = evaluate(() {
-  final base = ThemeData(
-    useMaterial3: true,
-    fontFamily: 'Rubik',
-  );
+  const fontFamily = 'ComicNeue';
 
-  final value = ThemeData.dark(useMaterial3: true);
+  final value = ThemeData.light(useMaterial3: true);
 
   return value.copyWith(
-    textTheme: base.textTheme.merge(value.textTheme),
-    primaryTextTheme: base.textTheme.merge(value.primaryTextTheme),
+    textTheme: value.textTheme.apply(
+      fontFamily: fontFamily,
+    ),
+    primaryTextTheme: value.primaryTextTheme.apply(
+      fontFamily: fontFamily,
+    ),
   );
 });

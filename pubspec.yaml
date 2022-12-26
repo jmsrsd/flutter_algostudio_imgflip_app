@@ -48,6 +48,9 @@ dependencies:
   uuid: ^3.0.7
   hooks_riverpod: ^2.1.2
   flutter_dotenv: ^5.0.2
+  transparent_image: ^2.0.0
+  blur: ^3.1.0
+  image_editor: ^1.3.0
 
 dev_dependencies:
   flutter_test:
@@ -94,39 +97,76 @@ flutter:
   fonts:
     - family: Rubik
       fonts:
-        - asset: fonts/Rubik-Black.ttf
+        - asset: fonts/rubik/Rubik-Black.ttf
           weight: 900
-        - asset: fonts/Rubik-BlackItalic.ttf
+        - asset: fonts/rubik/Rubik-BlackItalic.ttf
           style: italic
           weight: 900
-        - asset: fonts/Rubik-ExtraBold.ttf
+        - asset: fonts/rubik/Rubik-ExtraBold.ttf
           weight: 800
-        - asset: fonts/Rubik-ExtraBoldItalic.ttf
+        - asset: fonts/rubik/Rubik-ExtraBoldItalic.ttf
           style: italic
           weight: 800
-        - asset: fonts/Rubik-Bold.ttf
+        - asset: fonts/rubik/Rubik-Bold.ttf
           weight: 700
-        - asset: fonts/Rubik-BoldItalic.ttf
+        - asset: fonts/rubik/Rubik-BoldItalic.ttf
           style: italic
           weight: 700
-        - asset: fonts/Rubik-SemiBold.ttf
+        - asset: fonts/rubik/Rubik-SemiBold.ttf
           weight: 600
-        - asset: fonts/Rubik-SemiBoldItalic.ttf
+        - asset: fonts/rubik/Rubik-SemiBoldItalic.ttf
           style: italic
           weight: 600
-        - asset: fonts/Rubik-Medium.ttf
+        - asset: fonts/rubik/Rubik-Medium.ttf
           weight: 500
-        - asset: fonts/Rubik-MediumItalic.ttf
+        - asset: fonts/rubik/Rubik-MediumItalic.ttf
           style: italic
           weight: 500
-        - asset: fonts/Rubik-Regular.ttf
+        - asset: fonts/rubik/Rubik-Regular.ttf
           weight: 400
-        - asset: fonts/Rubik-Italic.ttf
+        - asset: fonts/rubik/Rubik-Italic.ttf
           style: italic
           weight: 400
-        - asset: fonts/Rubik-Light.ttf
+        - asset: fonts/rubik/Rubik-Light.ttf
           weight: 300
-        - asset: fonts/Rubik-LightItalic.ttf
+        - asset: fonts/rubik/Rubik-LightItalic.ttf
+          style: italic
+          weight: 300
+    - family: ComicNeue
+      fonts:
+        - asset: fonts/comic_neue/ComicNeue-Bold.ttf
+          weight: 900
+        - asset: fonts/comic_neue/ComicNeue-BoldItalic.ttf
+          style: italic
+          weight: 900
+        - asset: fonts/comic_neue/ComicNeue-Bold.ttf
+          weight: 800
+        - asset: fonts/comic_neue/ComicNeue-BoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: fonts/comic_neue/ComicNeue-Bold.ttf
+          weight: 700
+        - asset: fonts/comic_neue/ComicNeue-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: fonts/comic_neue/ComicNeue-Regular.ttf
+          weight: 600
+        - asset: fonts/comic_neue/ComicNeue-Italic.ttf
+          style: italic
+          weight: 600
+        - asset: fonts/comic_neue/ComicNeue-Regular.ttf
+          weight: 500
+        - asset: fonts/comic_neue/ComicNeue-Italic.ttf
+          style: italic
+          weight: 500
+        - asset: fonts/comic_neue/ComicNeue-Regular.ttf
+          weight: 400
+        - asset: fonts/comic_neue/ComicNeue-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: fonts/comic_neue/ComicNeue-Light.ttf
+          weight: 300
+        - asset: fonts/comic_neue/ComicNeue-LightItalic.ttf
           style: italic
           weight: 300
   #
