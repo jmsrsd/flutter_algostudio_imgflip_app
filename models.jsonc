@@ -1,0 +1,174 @@
+[
+    {
+        "__className": "get_memes_response_success_dto",
+        "__path": "/lib/src/types/dto/get_memes/response/success",
+        "success": true,
+        "data": {
+            "memes": [
+                {
+                    "id": "61579",
+                    "name": "One Does Not Simply",
+                    "url": "https://i.imgflip.com/1bij.jpg",
+                    "width": 568,
+                    "height": 335,
+                    "box_count": 2
+                },
+                {
+                    "id": "101470",
+                    "name": "Ancient Aliens",
+                    "url": "https://i.imgflip.com/26am.jpg",
+                    "width": 500,
+                    "height": 437,
+                    "box_count": 2
+                }
+                // probably a lot more memes here..
+            ]
+        }
+    },
+    {
+        "__className": "caption_image_request_dto",
+        "__path": "/lib/src/types/dto/caption_image/request",
+        "r@template_id": 123,
+        "r@username": "string",
+        "r@password": "string",
+        "text0": "string",
+        "text1": "string",
+        "font": "string",
+        "max_font_size": "string",
+        "boxes": [
+            {
+                "text": "One does not simply",
+                "x": 10,
+                "y": 10,
+                "width": 548,
+                "height": 100,
+                "color": "#ffffff",
+                "outline_color": "#000000"
+            },
+            {
+                "text": "Make custom memes on the web via imgflip API",
+                "x": 10,
+                "y": 225,
+                "width": 548,
+                "height": 100,
+                "color": "#ffffff",
+                "outline_color": "#000000"
+            }
+        ]
+    },
+    {
+        "__className": "box_entity",
+        "__path": "/lib/src/types/entity/box",
+        "text": "One does not simply",
+        "x": 10,
+        "y": 10,
+        "width": 548,
+        "height": 100,
+        "color": "#ffffff",
+        "outline_color": "#000000"
+    },
+    {
+        "__className": "caption_image_response_success_dto",
+        "__path": "/lib/src/types/dto/caption_image/response/success",
+        "success": true,
+        "data": {
+            "url": "https://i.imgflip.com/123abc.jpg",
+            "page_url": "https://imgflip.com/i/123abc"
+        }
+    },
+    {
+        "__className": "caption_meme_entity",
+        "__path": "/lib/src/types/entity/caption_meme",
+        "url": "https://i.imgflip.com/123abc.jpg",
+        "page_url": "https://imgflip.com/i/123abc"
+    },
+    {
+        "__className": "generic_response_failed_dto",
+        "__path": "/lib/src/types/dto/generic/response/failed",
+        "success": false,
+        "error_message": "Some hopefully-useful statement about why it failed"
+    },
+    {
+        "__className": "generic_response_success_dto",
+        "__path": "/lib/src/types/dto/generic/response/success",
+        "success": true,
+        "data": {}
+    },
+    {
+        "__className": "search_memes_request_dto",
+        "__path": "/lib/src/types/dto/search_memes/request",
+        "r@username": "string",
+        "r@password": "string",
+        "r@query": "string",
+        "d@include_nsfw": 0
+    },
+    {
+        "__className": "search_memes_response_success_dto",
+        "__path": "/lib/src/types/dto/search_memes/response/success",
+        "success": true,
+        "data": {
+            "memes": [
+                {
+                    "id": "61579",
+                    "name": "One Does Not Simply",
+                    "url": "https://i.imgflip.com/1bij.jpg",
+                    "width": 568,
+                    "height": 335,
+                    "box_count": 2,
+                    "captions": 1750 // estimated number of all-time captions of this meme, rounded
+                }
+                // probably a lot more memes here..
+            ]
+        }
+    },
+    {
+        "__className": "automeme_request_dto",
+        "__path": "/lib/src/types/dto/automeme/request",
+        "r@username": "string",
+        "r@password": "string",
+        "r@text": "string"
+    },
+    {
+        "__className": "meme_entity",
+        "__path": "/lib/src/types/entity/meme",
+        "id": "61579",
+        "name": "One Does Not Simply",
+        "url": "https://i.imgflip.com/1bij.jpg",
+        "width": 568,
+        "height": 335,
+        "box_count": 2,
+        "captions": 1750 // estimated number of all-time captions of this meme, rounded
+    },
+    {
+        "__className": "automeme_request_dto",
+        "__path": "/lib/src/types/dto/automeme/request",
+        "r@username": "string",
+        "r@password": "string",
+        "r@template_id": 89370399
+    },
+    {
+        "__className": "ai_meme_response_success_dto",
+        "__path": "/lib/src/types/dto/ai_meme/response/success",
+        "success": true,
+        "data": {
+            "url": "https://i.imgflip.com/123abc.jpg",
+            "page_url": "https://imgflip.com/i/123abc",
+            "template_id": 89370399,
+            "texts": [
+                "you can't get caught to sing a conversation",
+                "if you don't have any money"
+            ]
+        }
+    },
+    {
+        "__className": "ai_meme_entity",
+        "__path": "/lib/src/types/entity/ai_meme",
+        "url": "https://i.imgflip.com/123abc.jpg",
+        "page_url": "https://imgflip.com/i/123abc",
+        "template_id": 89370399,
+        "texts": [
+            "you can't get caught to sing a conversation",
+            "if you don't have any money"
+        ]
+    }
+]
